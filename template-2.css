@@ -24,8 +24,8 @@
 
     /* appointment-section */
     --brand-font-size: 26px;
-    --brand-text-color: #266E88;
-    --brand-icon-color: #266E88;
+    --brand-text-color: #3AB4F2;
+    --brand-icon-color: #3AB4F2;
     --mobile-icon-color: #616160;
     --brand-font-family: "poppins-semibold", sans-serif;
     --brand-Logo-width: 48px;
@@ -133,7 +133,7 @@ body {
     color: var(--brand-icon-color) !important;
 }
 
-.brand-name {
+.navbar-brand h1 {
     color: var(--brand-text-color);
     font-size: var(--brand-font-size);
     font-family: var(--brand-font-family);
@@ -325,6 +325,7 @@ body {
 .achievement-image img {
     height: 480px;
 }
+
 /* CHAMBER-DETAILS */
 
 .chamber-details-container {
@@ -373,7 +374,7 @@ body {
         color: var(--brand-icon-color);
     }
 
-    .brand-name {
+    .navbar-brand h1 {
         font-size: 16px;
         font-family: var(--brand-font-family);
         color: var(--brand-text-color);
