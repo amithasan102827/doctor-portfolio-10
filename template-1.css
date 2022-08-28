@@ -303,6 +303,10 @@ body {
     background-color: var(--achievement-backgroundr);
 }
 
+.achievement-image img {
+    height: 480px;
+}
+
 .achievement-title {
     font-family: var(--achieve-title-font-familiy);
     color: var(--achieve-title-font-color);
@@ -399,6 +403,13 @@ body {
     .mobile-num {
         font-size: 14px;
         font-family: var(--mobile-text-font-family);
+    }
+
+
+    /* ACHIEVEMENT-SECTION */
+
+    .achievement-image img {
+        height: 380px;
     }
 
 }

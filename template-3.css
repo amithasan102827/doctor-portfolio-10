@@ -81,8 +81,7 @@
 
 
     --bio-underline-background-color: #FFFFFF;
-    --edu-underline-background-color: #94519A
-    ;
+    --edu-underline-background-color: #94519A;
 
 }
 
@@ -322,6 +321,10 @@ body {
     margin: auto;
 }
 
+.achievement-image img {
+    height: 480px;
+}
+
 /* CHAMBER-DETAILS */
 
 .chamber-details-container {
@@ -401,5 +404,12 @@ body {
         font-size: 14px;
         font-family: var(--mobile-text-font-family);
     }
+
+
+    /* ACHIEVEMENT-SECTION */
+    .achievement-image img {
+        height: 380px;
+    }
+
 
 }

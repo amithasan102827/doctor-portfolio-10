@@ -321,6 +321,10 @@ body {
     margin: auto;
 }
 
+.achievement-image img {
+    height: 480px;
+}
+
 /* CHAMBER-DETAILS */
 
 .chamber-details-container {
@@ -399,6 +403,12 @@ body {
     .mobile-num {
         font-size: 14px;
         font-family: var(--mobile-text-font-family);
+    }
+
+
+    /* ACHIEVEMENT-SECTION */
+    .achievement-image img {
+        height: 380px;
     }
 
 }
